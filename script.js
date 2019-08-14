@@ -1,5 +1,5 @@
-<script src="/aplex/jquery/jquery.js"> </script>
-<script src="/aplex/jquery/jquery.validate.js"></script>
+<script src="/site/jquery/jquery.js"> </script>
+<script src="/site/jquery/jquery.validate.js"></script>
 <script>
 
     $(function () {

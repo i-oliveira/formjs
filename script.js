@@ -4,7 +4,7 @@
 
     $(function () {
         $("form[name='registration']").validate({
-            // Specify validation rules
+            // validation rules
             rules: {
                 firstname: "required",
                 lastname: "required",
@@ -15,12 +15,10 @@
                 Implementacao_prevista_para: "required",
                 prazo_para_implementacao: "required",
                 //Indústria: "required",
-                //est_interessado_em: "required",
                 //cnpj: {cnpj: true},
                 Email: {
                     required: true,
                     // Specify that email should be validated
-                    // by the built-in "email" rule
                     email: true
                 }
             },

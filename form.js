@@ -41,8 +41,8 @@
     </script>
 </form>
 <p class="mensaje"></p>
-<script src="/aplex/jquery/jquery.js"> </script>
-<script src="/aplex/jquery/jquery.validate.js"></script>
+<script src="/jquery/jquery.js"> </script>
+<script src="/jquery/jquery.validate.js"></script>
 <script>
 
 // Wait for the DOM to be ready
@@ -105,9 +105,9 @@
             // in the "action" attribute of the form when valid
             submitHandler: function (form) {
 
-                $.post("https://www.pages08.net/aplex/Contato/Contato", $("#registration").serialize());
+                $.post("https://www.site.com//Contato", $("#registration").serialize());
                 $("form").hide();
-                $('.mensaje').text('Agradecemos sua mensagem. Em breve a equipe Aplex entrará em contato.');
+                $('.mensaje').text('Agradecemos sua mensagem. Em breve a equipe entrará em contato.');
 
                 window.dataLayer = window.dataLayer || [];
                 window.dataLayer.push({
